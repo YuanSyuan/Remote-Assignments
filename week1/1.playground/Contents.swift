@@ -30,7 +30,7 @@
 
 //i. git push [ repo_name ] [ branch_name ]
 //Meaning: This command uploads a local branch to a remote repository.You tell it where to send (remote name) and what to send (branch name).
-//Use Case: When to use: Share your changes with others by sending your branch to a place like GitHub.
+//Use Case: Share your changes with others by sending your branch to a place like GitHub.
 
 //j. git remote:
 //Meaning: This command manages connections to other copies of your project on the internet.
@@ -42,7 +42,7 @@
 
 //l. (Advanced) git rebase
 //Meaning: This command is used to move or combine a sequence of commits to a new base commit. It's an alternative to merging and can create a cleaner project history.
-//Use Case: Use it to integrate changes from one branch into another . It's often used to keep a feature branch up-to-date with the main branch.
+//Use Case: Use it to integrate changes from one branch into another. It's often used to keep a feature branch up-to-date with the main branch.
 
 //m. (Advanced) git cherry-pick
 //Meaning: This command allows you to pick and apply specific commits from one branch onto another.
