@@ -20,6 +20,10 @@
 //Meaning: This command takes the staged changes and records them in the repository's history. It's often used with -m to describe what changes the commit makes.
 //Use Case: Use it to save your changes to the local repository.
 
+//f. git log
+//Meaning: The command list out the commit history of a file in current branch. It displays the commit ID, author, date, and commit message.
+//Use Case: Use it to review past changes, find specific commits, or to go back to a previous commit.
+
 //g. git branch
 //Meaning: This command is used to list, create, or delete branches.
 //Use Case: It's used to check available branches, to create new branches (git branch <branch_name>), or to delete branches (git branch -d <branch_name>).

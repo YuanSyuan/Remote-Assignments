@@ -12,7 +12,8 @@ myFriends += ["Ian", "Bomi", "Kevin"]
 myFriends.append("Michael")
 
 //4. Because I usually hang out with Kevin, please move Kevin to the beginning of the .myFriends array.
-myFriends[0...1] = ["Bomi", "Ian"]
+myFriends.remove(at:2)
+myFriends.insert("Kevin", at: 0)
 
 //5. Use for...in to print all the friends in myFriends array.
 for friend in myFriends{

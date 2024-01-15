@@ -50,6 +50,7 @@ repeat {
 } while evenIndex < lottoNumbers.count
 
 //5. What are the differences between while and repeat-while?
+//In repear-while loop, the text expression will be checked after the loop excuted once. However, in while loop, text expression comes before loop being excuted.
 
 //6. Declare a variable isRaining to record the weather. Please write a statement that if the weather is raining, print “It’s raining, I don’t want to work today.”, otherwise print “Although it’s sunny, I still don’t want to work today.”
 var isRaining: Bool = true
