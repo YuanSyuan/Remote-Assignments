@@ -63,10 +63,13 @@ class ViewController: UIViewController {
             if accountTextField.text == "" && passwordTextField.text == "" && checkTextField.text == "" {
                 title = "Error"
                 message = "Please fill in the blank."
+            } else if accountTextField.text == "" {
+                title = "Error"
+                message = "Account should not be empty."
             } else if passwordTextField.text == "" && checkTextField.text == "" {
                 title = "Error"
                 message = "Password and check password should not be empty."
-                } else if passwordTextField.text != checkTextField.text {
+            } else if passwordTextField.text != checkTextField.text {
                 if checkTextField.text == "" {
                     title = "Error"
                     message = "Check password should not be empty."
@@ -78,15 +81,9 @@ class ViewController: UIViewController {
                     message = "Password doesn't match."
                 }
             } else if passwordTextField.text == checkTextField.text {
-                title = "Congrates!"
-                message = "Signed up Successfully."
-            } else if accountTextField.text == "" {
-                title = "Error"
-                message = "Account should not be empty."
-            } else if passwordTextField.text == "" {
-                title = "Error"
-                message = "Password should not be empty."
-            }
+                    title = "Congrates!"
+                    message = "Signed up Successfully."
+            } 
         }
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
